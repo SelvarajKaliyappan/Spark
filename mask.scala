@@ -13,4 +13,5 @@ class mask {
   
   def hashMask(str:String):Int={return (str+addhash).hashCode()}
   def revEncode(str:String):String={return prefixstr+str.reverse}
+  def getStr(str:String):String={return str+"selva"}
 }
